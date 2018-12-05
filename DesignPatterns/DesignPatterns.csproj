@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DesignPatterns.Creational.Builder.Client</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,8 +46,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Behavioral\State\Client.cs" />
+    <Compile Include="Behavioral\State\ISocialNetworkState.cs" />
+    <Compile Include="Behavioral\State\LoggedIn.cs" />
+    <Compile Include="Behavioral\State\LoggedOut.cs" />
+    <Compile Include="Behavioral\State\SocialNetworkContext.cs" />
+    <Compile Include="Creational\AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="Creational\AbstractFactory\Chair.cs" />
+    <Compile Include="Creational\AbstractFactory\Client.cs" />
+    <Compile Include="Creational\AbstractFactory\CoffeTable.cs" />
+    <Compile Include="Creational\AbstractFactory\Desk.cs" />
+    <Compile Include="Creational\AbstractFactory\Factories.cs" />
+    <Compile Include="Creational\AbstractFactory\IKEAChair.cs" />
+    <Compile Include="Creational\AbstractFactory\IKEACoffeTable.cs" />
+    <Compile Include="Creational\AbstractFactory\IKEADesk.cs" />
+    <Compile Include="Creational\AbstractFactory\IKEAFactory.cs" />
+    <Compile Include="Creational\AbstractFactory\VictorianChair.cs" />
+    <Compile Include="Creational\AbstractFactory\VictorianCoffeTable.cs" />
+    <Compile Include="Creational\AbstractFactory\VictorianDesk.cs" />
+    <Compile Include="Creational\AbstractFactory\VictorianFactory.cs" />
+    <Compile Include="Creational\Builder\Client.cs" />
+    <Compile Include="Creational\Builder\ConcreteHouseBuilder.cs" />
+    <Compile Include="Creational\Builder\Director.cs" />
+    <Compile Include="Creational\Builder\HouseBuilder.cs" />
+    <Compile Include="Creational\Builder\WoodHouseBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Decorator\Client.cs" />
+    <Compile Include="Structural\Decorator\ICalculatable.cs" />
+    <Compile Include="Structural\Decorator\MultiplyOperation.cs" />
+    <Compile Include="Structural\Decorator\OperationItem.cs" />
+    <Compile Include="Structural\Decorator\SumOperation.cs" />
+    <Compile Include="Structural\Decorator\ValueItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

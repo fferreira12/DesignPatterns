@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.Creational.Builder.Client</StartupObject>
+    <StartupObject>DesignPatterns.Creational.Prototype.Client</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -70,6 +70,10 @@
     <Compile Include="Creational\Builder\Director.cs" />
     <Compile Include="Creational\Builder\HouseBuilder.cs" />
     <Compile Include="Creational\Builder\WoodHouseBuilder.cs" />
+    <Compile Include="Creational\Prototype\Client.cs" />
+    <Compile Include="Creational\Prototype\IClonableMonster.cs" />
+    <Compile Include="Creational\Prototype\Monster.cs" />
+    <Compile Include="Creational\Prototype\MonstersRegistry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural\Decorator\Client.cs" />
     <Compile Include="Structural\Decorator\ICalculatable.cs" />

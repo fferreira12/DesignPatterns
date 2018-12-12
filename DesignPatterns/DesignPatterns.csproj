@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.Structural.Composite.Client</StartupObject>
+    <StartupObject>DesignPatterns.Behavioral.Observer.Client</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Observer\Client.cs" />
+    <Compile Include="Behavioral\Observer\FileLogger.cs" />
+    <Compile Include="Behavioral\Observer\IPublisher.cs" />
+    <Compile Include="Behavioral\Observer\ISubscriber.cs" />
+    <Compile Include="Behavioral\Observer\MessagePublisher.cs" />
+    <Compile Include="Behavioral\Observer\MessageReceiver.cs" />
+    <Compile Include="Behavioral\Observer\ScreenPrinter.cs" />
     <Compile Include="Behavioral\State\Client.cs" />
     <Compile Include="Behavioral\State\ISocialNetworkState.cs" />
     <Compile Include="Behavioral\State\LoggedIn.cs" />

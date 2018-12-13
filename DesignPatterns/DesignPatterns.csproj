@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.Structural.Flyweigth.Client</StartupObject>
+    <StartupObject>DesignPatterns.Structural.Proxy.Client</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -125,6 +125,10 @@
     <Compile Include="Structural\Flyweigth\Tree.cs" />
     <Compile Include="Structural\Flyweigth\TreeFactory.cs" />
     <Compile Include="Structural\Flyweigth\TreeType.cs" />
+    <Compile Include="Structural\Proxy\Client.cs" />
+    <Compile Include="Structural\Proxy\IService.cs" />
+    <Compile Include="Structural\Proxy\LoggerProxy.cs" />
+    <Compile Include="Structural\Proxy\RandomVowelService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

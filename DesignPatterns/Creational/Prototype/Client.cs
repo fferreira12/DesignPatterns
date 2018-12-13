@@ -47,9 +47,9 @@ namespace DesignPatterns.Creational.Prototype
             IClonableMonster beholder = registry.GetByName("Beholder");
             IClonableMonster dragon = registry.GetByName("Dragon");
 
-            Console.WriteLine(((Monster)acolyte).ToString());
-            Console.WriteLine(((Monster)beholder).ToString());
-            Console.WriteLine(((Monster)dragon).ToString());
+            Console.WriteLine(acolyte.ToString());
+            Console.WriteLine(beholder.ToString());
+            Console.WriteLine(dragon.ToString());
 
             Console.ReadKey();
         }

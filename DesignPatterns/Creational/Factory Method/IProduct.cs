@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Creational.Prototype
+namespace DesignPatterns.Creational.Factory_Method
 {
-    interface IClonableMonster
+    interface IProduct
     {
 
-        IClonableMonster clone();
-        string ToString();
+        double getPrice();
 
     }
 }

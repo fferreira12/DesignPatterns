@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.Structural.Facade.Client</StartupObject>
+    <StartupObject>DesignPatterns.Structural.Flyweigth.Client</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -120,6 +120,11 @@
     <Compile Include="Structural\Facade\Facade.cs" />
     <Compile Include="Structural\Facade\Subsystem1.cs" />
     <Compile Include="Structural\Facade\Subsystem2.cs" />
+    <Compile Include="Structural\Flyweigth\Client.cs" />
+    <Compile Include="Structural\Flyweigth\Forest.cs" />
+    <Compile Include="Structural\Flyweigth\Tree.cs" />
+    <Compile Include="Structural\Flyweigth\TreeFactory.cs" />
+    <Compile Include="Structural\Flyweigth\TreeType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

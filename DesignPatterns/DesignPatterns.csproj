@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.Creational.Singleton.Client</StartupObject>
+    <StartupObject>DesignPatterns.Structural.Bridge.Client</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -97,6 +97,15 @@
     <Compile Include="Creational\Singleton\Client.cs" />
     <Compile Include="Creational\Singleton\DatabaseConnection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Adapter\Client.cs" />
+    <Compile Include="Structural\Adapter\IInternationalSystem.cs" />
+    <Compile Include="Structural\Adapter\ImperialRandomDistances.cs" />
+    <Compile Include="Structural\Adapter\ImperialToISAdapter.cs" />
+    <Compile Include="Structural\Bridge\Client.cs" />
+    <Compile Include="Structural\Bridge\IDevice.cs" />
+    <Compile Include="Structural\Bridge\Radio.cs" />
+    <Compile Include="Structural\Bridge\Remote.cs" />
+    <Compile Include="Structural\Bridge\Television.cs" />
     <Compile Include="Structural\Composite\Client.cs" />
     <Compile Include="Structural\Composite\IProduct.cs" />
     <Compile Include="Structural\Composite\Piece.cs" />

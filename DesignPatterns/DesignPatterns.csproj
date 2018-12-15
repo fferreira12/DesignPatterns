@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.Structural.Chain_Of_Responsibility.Client</StartupObject>
+    <StartupObject>DesignPatterns.Structural.Template_Method.Client</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -138,6 +138,15 @@
     <Compile Include="Structural\Proxy\IService.cs" />
     <Compile Include="Structural\Proxy\LoggerProxy.cs" />
     <Compile Include="Structural\Proxy\RandomVowelService.cs" />
+    <Compile Include="Structural\Strategy\CarStrategy.cs" />
+    <Compile Include="Structural\Strategy\Client.cs" />
+    <Compile Include="Structural\Strategy\ITravelStrategy.cs" />
+    <Compile Include="Structural\Strategy\Traveler.cs" />
+    <Compile Include="Structural\Strategy\WalkingStrategy.cs" />
+    <Compile Include="Structural\Template Method\Client.cs" />
+    <Compile Include="Structural\Template Method\HouseConstructor.cs" />
+    <Compile Include="Structural\Template Method\SteelHouseConstructor.cs" />
+    <Compile Include="Structural\Template Method\WoodHouseConstructor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

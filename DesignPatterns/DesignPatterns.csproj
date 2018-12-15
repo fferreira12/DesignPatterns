@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.Structural.Template_Method.Client</StartupObject>
+    <StartupObject>DesignPatterns.Structural.Iterator.Client</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -134,6 +134,11 @@
     <Compile Include="Structural\Flyweigth\Tree.cs" />
     <Compile Include="Structural\Flyweigth\TreeFactory.cs" />
     <Compile Include="Structural\Flyweigth\TreeType.cs" />
+    <Compile Include="Structural\Iterator\Client.cs" />
+    <Compile Include="Structural\Iterator\IterableCollection.cs" />
+    <Compile Include="Structural\Iterator\Iterator.cs" />
+    <Compile Include="Structural\Iterator\ListCollection.cs" />
+    <Compile Include="Structural\Iterator\OrderIterator.cs" />
     <Compile Include="Structural\Proxy\Client.cs" />
     <Compile Include="Structural\Proxy\IService.cs" />
     <Compile Include="Structural\Proxy\LoggerProxy.cs" />

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.Structural.Iterator.Client</StartupObject>
+    <StartupObject>DesignPatterns.Structural.Command.Client</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -115,6 +115,12 @@
     <Compile Include="Structural\Chain Of Responsibility\PageHandler.cs" />
     <Compile Include="Structural\Chain Of Responsibility\Request.cs" />
     <Compile Include="Structural\Chain Of Responsibility\Response.cs" />
+    <Compile Include="Structural\Command\Calculator.cs" />
+    <Compile Include="Structural\Command\Client.cs" />
+    <Compile Include="Structural\Command\ICommand.cs" />
+    <Compile Include="Structural\Command\Invoker.cs" />
+    <Compile Include="Structural\Command\MultiplyCommand.cs" />
+    <Compile Include="Structural\Command\SumCommand.cs" />
     <Compile Include="Structural\Composite\Client.cs" />
     <Compile Include="Structural\Composite\IProduct.cs" />
     <Compile Include="Structural\Composite\Piece.cs" />

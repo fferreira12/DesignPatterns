@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.Behavioral.Mediator.Client</StartupObject>
+    <StartupObject>DesignPatterns.Behavioral.Memento.Client</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,10 @@
     <Compile Include="Behavioral\Mediator\SalesMediator.cs" />
     <Compile Include="Behavioral\Mediator\Shipping.cs" />
     <Compile Include="Behavioral\Mediator\Statistics.cs" />
+    <Compile Include="Behavioral\Memento\Caretaker.cs" />
+    <Compile Include="Behavioral\Memento\Client.cs" />
+    <Compile Include="Behavioral\Memento\Memento.cs" />
+    <Compile Include="Behavioral\Memento\Originator.cs" />
     <Compile Include="Behavioral\Observer\Client.cs" />
     <Compile Include="Behavioral\Observer\FileLogger.cs" />
     <Compile Include="Behavioral\Observer\IPublisher.cs" />
